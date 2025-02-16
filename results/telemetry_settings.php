@@ -1,6 +1,6 @@
 <?php
 $db_type="mysql"; 
-$stats_password="1a2b3c"; //Senha para acessar os stats.php. Altere!!!
+$stats_password="1234"; //Senha para acessar os stats.php. Altere!!!
 $enable_id_obfuscation=true; 
 $redact_ip_addresses=false;
 
@@ -8,10 +8,10 @@ $redact_ip_addresses=false;
 $Sqlite_db_file = "../../speedtest_telemetry.sql";
 
 // Mysql settings
-$MySql_username="userDB";
-$MySql_password="SenhaDB"; // Altere!!!
-$MySql_hostname="localhost";
-$MySql_databasename="DB";
+$MySql_username="DBUSER";
+$MySql_password="DBPASS"; // Altere!!!
+$MySql_hostname="HOST";
+$MySql_databasename="DBNAME";
 
 // Postgresql settings
 $PostgreSql_username="USERNAME";
@@ -20,6 +20,6 @@ $PostgreSql_hostname="DB_HOSTNAME";
 $PostgreSql_databasename="DB_NAME";
 
 // Dados
-$NomeProvedor="SEUPROVEDOR";
-$LinkSite="https://SEUSITE";
+$NomeProvedor="ANOME DA EMPRESA"; // Nome da Empresa
+$LinkSite="https://URL.DOSEU.SITE"; // Seu Site
 ?>
